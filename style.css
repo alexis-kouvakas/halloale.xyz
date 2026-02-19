@@ -41,18 +41,18 @@ h1 {
     font-size: 24px;
     color: #af3a03;
     text-align: right;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 h2 {
     font-size: 20px;
     color: #98971a;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 h3 {
     font-size: 16px;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -126,7 +126,8 @@ a:hover {
 
 svg {
   vertical-align: middle;
-  opacity: 0.5;
+  opacity: 0.75;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
 }
 
 @keyframes blink { 50% { opacity: 0; } }
